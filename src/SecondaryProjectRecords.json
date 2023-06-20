@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "title": "Worm",
+        "image": "/Images/WormBG.svg",
+        "description": [ "Adaptation of the popular snake game found on mobile phones in the early 2000s.",
+                       "The user changes the direction of the worm using the arrow keys in order to capture the apple.",
+                        "Written in vanilla JavaScript." ],
+        "webTechnologies": [
+            "HTML",
+            "CSS",
+            "SCSS",
+            "Javascript"
+        ],
+        "repoLink": "www.github.com/goligy08/worm"
+    },
+    {
+        "id": 2,
+        "title": "Pacman",
+        "image": "/Images/PacmanBG.svg",
+        "description": ["The classic arcade game! The user controls pacman around the gameboard using the WASD keys in order to capture pac-pellets.",
+                        " Pacman must evade the ghosts (Pinky, blinky, Inky & Clyde) & capture all pellets in order to win. Written in vanilla JavaScript."],
+        "webTechnologies": [
+            "HTML",
+            "CSS",
+            "SCSS",
+            "Javascript"
+        ],
+        "repoLink": "www.github.com/goligy08/pacman"
+    },
+    {
+        "id": 3,
+        "title": "Breakout",
+        "image": "/Images/BreakoutBG.svg",
+        "description": ["The user controls the paddle using the left & right arrow keys and must bounce the ball against the opposing blocks. Written in vanilla Javascript"],
+        "webTechnologies": [
+            "HTML",
+            "CSS",
+            "SCSS",
+            "Javascript"
+        ],
+        "repoLink": "www.github.com/goligy08/breakout"
+    }
+]

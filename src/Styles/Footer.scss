@@ -1,0 +1,166 @@
+@import "./Variables.scss";
+
+.footer{
+  width: 100%;
+  height: 3%;
+  //order: 5;
+  
+  background-color: $white;
+  position: relative;
+  
+
+    @media (min-width: 500px) {
+      height: 4%;
+    }
+    @media (min-width: 920px) {
+      height: 2%;
+    }
+  .footer-contact{
+    width: 8rem;
+    height: 3rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 0.2rem;
+    background-color: $ice;
+    position: absolute;
+    color: $white;
+    top: 5%;
+    left: 2%;
+
+    @media (min-width: 920px) {
+      width: 10rem;
+      height: 3rem;
+      font-weight: 600;
+      top: 10%;
+    }
+
+  }
+  
+  h3 {
+    color: $lightGreyFont;
+    font-weight: 400;
+    font-size: 0.9rem;
+  }
+
+  .copy{
+    width: 15%;
+    height: 30%;
+    position: absolute;
+    top: 60%;
+    left: 1.9%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+
+    .copy-name{
+      order: 1;
+      width: 100%;
+      height: 60%;
+      display: flex;
+      align-items: baseline;
+
+      .copyright-icon.darkmode{
+        color: $white;
+      }
+
+     .name{
+      position: absolute;
+      left: 10%;
+      color: $greyBlueFont;
+      font-weight: 600;
+
+     }
+     
+
+     .year{
+      position: absolute;
+      left: 58%;
+      font-weight: 600; 
+     }
+
+     .year.darkmode{
+      color: $white;
+     }
+      
+
+    }
+
+    .copy-location{
+      order: 2;
+      width: 100%;
+      height: 50%;
+      display: flex;
+
+      .location{
+        position: absolute;
+        left: 10%;
+        font-weight: 600;
+
+      }
+      .location.darkmode{
+        color: $white;
+      }
+
+      .location-icon{
+        color: $greyBlueFont;
+        font-weight: 900;
+      }
+     
+    }
+  }
+ 
+
+ 
+
+  
+
+  
+  
+
+
+  .socials{
+    width: 30%;
+      position: absolute;
+      top: 50%;
+      right: 5%;
+      display: flex;
+      justify-content: space-around;
+
+      i {
+        font-size: 1.3rem;
+        color: $lightGreyFont;
+        cursor: pointer;
+        &:hover {
+          color: $ice;
+        }
+        @media (min-width: 1100px) {
+          font-size: 1.4rem;
+        }
+        @media (min-width: 1600px) {
+          font-size: 1.5rem;
+        }
+      }
+
+      @media (min-width: 920px) {
+        width: 15%;
+        justify-content: space-evenly;
+        top: 65%;
+      }
+
+  }
+
+  .socials.darkmode{
+    i{
+      color: $white;
+      &:hover {
+        color: $ice;
+      }
+    }
+  }
+}
+
+.footer.darkmode{
+  background-color: $nordGrey;
+}

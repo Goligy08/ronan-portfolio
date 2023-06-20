@@ -1,0 +1,269 @@
+.special-project {
+  height: 550px;
+  width: 90%;
+  margin: 10% 0 10% 2%;
+  border-radius: 1rem;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+}
+@media (min-width: 500px) {
+  .special-project {
+    width: 80%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 0 0 6%;
+  }
+}
+@media (min-width: 920px) {
+  .special-project {
+    min-height: 550px;
+    width: 900px;
+    background-size: cover;
+    background-position: 20% 45%;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 500px;
+    margin: 15% 0 0 10%;
+  }
+}
+@media (min-width: 1600px) {
+  .special-project {
+    min-height: 550px;
+    width: 900px;
+    width: 50%;
+    height: 500px;
+  }
+}
+.special-project .special-project-title {
+  position: absolute;
+  top: 5%;
+  left: 25%;
+  color: #4c566a;
+}
+@media (min-width: 500px) {
+  .special-project .special-project-title {
+    top: 5%;
+    left: 45%;
+  }
+}
+@media (min-width: 920px) {
+  .special-project .special-project-title {
+    top: 5%;
+    left: 45%;
+  }
+}
+@media (min-width: 1600px) {
+  .special-project .special-project-title {
+    top: 5%;
+    left: 45%;
+  }
+}
+.special-project .special-project-desc {
+  width: 80%;
+  max-height: 20%;
+  overflow: scroll;
+  position: absolute;
+  top: 55%;
+  left: 10%;
+  color: #4c566a;
+}
+@media (min-width: 500px) {
+  .special-project .special-project-desc {
+    width: 50%;
+    min-height: 60%;
+    top: 20%;
+    left: 45%;
+  }
+}
+@media (min-width: 920px) {
+  .special-project .special-project-desc {
+    min-height: 60%;
+    width: 50%;
+    top: 20%;
+    left: 45%;
+  }
+}
+@media (min-width: 1600px) {
+  .special-project .special-project-desc {
+    width: 50%;
+    top: 20%;
+    right: 5%;
+  }
+}
+.special-project .special-project-img {
+  width: 95%;
+  height: 40%;
+  position: absolute;
+  top: 12%;
+  left: 2%;
+  z-index: 2;
+  border-radius: 1.2vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media (min-width: 500px) {
+  .special-project .special-project-img {
+    width: 40%;
+    height: 80%;
+    -o-object-fit: contain;
+       object-fit: contain;
+    top: 8%;
+    left: 2%;
+  }
+}
+@media (min-width: 920px) {
+  .special-project .special-project-img {
+    width: 40%;
+    height: 80%;
+    top: 8%;
+    left: 2%;
+  }
+}
+@media (min-width: 1600px) {
+  .special-project .special-project-img {
+    width: 40%;
+    height: 80%;
+    top: 8%;
+    left: 2%;
+  }
+}
+.special-project .special-project-technologies {
+  width: 50%;
+  height: 10%;
+  position: absolute;
+  top: 85%;
+  left: 15%;
+  list-style: none;
+}
+.special-project .special-project-technologies li {
+  display: inline-block;
+  margin: 2% 5% 0 0;
+  color: #7b88a1;
+  border: 2px solid #7b88a1;
+  padding: 0.3rem;
+  border-radius: 2vh;
+}
+@media (min-width: 500px) {
+  .special-project .special-project-technologies {
+    width: 50%;
+    height: 10%;
+    top: 82%;
+    left: 40%;
+  }
+}
+@media (min-width: 920px) {
+  .special-project .special-project-technologies {
+    width: 50%;
+    height: 10%;
+    top: 70%;
+    left: 45%;
+  }
+}
+@media (min-width: 1600px) {
+  .special-project .special-project-technologies {
+    width: 50%;
+    height: 10%;
+    top: 70%;
+    left: 45%;
+  }
+}
+.special-project .special-git-button {
+  z-index: 10;
+  width: 2.8rem;
+  height: 2.8rem;
+  border-radius: 1rem;
+  border: none;
+  position: absolute;
+  outline: none;
+  top: 89%;
+  right: 70%;
+  background-color: inherit;
+  cursor: pointer;
+}
+.special-project .special-git-button i {
+  font-size: 2.5rem;
+  color: #ffffff;
+}
+@media (min-width: 500px) {
+  .special-project .special-git-button {
+    top: 90%;
+    right: 40%;
+  }
+}
+@media (min-width: 920px) {
+  .special-project .special-git-button {
+    top: 90%;
+    right: 20%;
+  }
+}
+@media (min-width: 1600px) {
+  .special-project .special-git-button {
+    top: 90%;
+    right: 20%;
+  }
+}
+.special-project .special-demo-button {
+  z-index: 10;
+  width: 12rem;
+  height: 2rem;
+  border-radius: 1rem;
+  position: absolute;
+  outline: none;
+  border: none;
+  top: 90%;
+  right: 10%;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+@media (min-width: 500px) {
+  .special-project .special-demo-button {
+    height: 2.5rem;
+    right: 5%;
+  }
+}
+@media (min-width: 920px) {
+  .special-project .special-demo-button {
+    height: 2.5rem;
+    right: 1%;
+  }
+  .special-project .special-demo-button:hover {
+    border: 2px solid white;
+    background-color: #367BF3;
+    color: white;
+  }
+}
+@media (min-width: 1600px) {
+  .special-project .special-demo-button {
+    height: 2.5rem;
+    right: 1%;
+  }
+}
+.special-project .special-demo-button i {
+  font-weight: 400;
+  position: absolute;
+  left: 25%;
+  top: 28%;
+}
+.special-project .special-demo-button span {
+  position: absolute;
+  left: 80%;
+  top: 30%;
+}
+.special-project .special-demo-button .special-project-expand {
+  width: 50%;
+  height: 50%;
+}
+
+.special-project.darkmode {
+  background-color: #3b4254;
+}
+
+.special-project-button.darkmode {
+  background-color: #3b4254;
+}/*# sourceMappingURL=SpecialProject.css.map */

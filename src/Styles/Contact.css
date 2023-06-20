@@ -1,0 +1,131 @@
+.contact {
+  background-color: #ffffff;
+  width: 100vw;
+  height: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: "Source Code Pro", monospace;
+}
+.contact .nav {
+  width: 100vw;
+  height: 10%;
+  order: 1;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  position: relative;
+}
+.contact .nav .logo {
+  background-image: url("../Assets/Portfolio Logo LightMode.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 3.9rem;
+  height: 3.9rem;
+  position: absolute;
+  top: 13.8%;
+  left: 3%;
+  order: 1;
+}
+.contact .nav .logo.darkmode {
+  background-image: url("../Assets/Portfolio Logo DarkMode.svg");
+}
+.contact .nav .close {
+  position: absolute;
+  width: 6rem;
+  height: 2.5rem;
+  top: 25%;
+  right: 10%;
+  cursor: pointer;
+  outline: none;
+  border: 2px solid #bf616a;
+  background-color: #ffffff;
+  color: #bf616a;
+  border-radius: 0.4rem;
+}
+.contact .nav .close i {
+  padding: 0.2rem 0.2rem;
+}
+.contact .nav .close:hover {
+  color: #ffffff;
+  background-color: #bf616a;
+}
+.contact .nav .close.darkmode {
+  background-color: #bf616a;
+  color: #ffffff;
+}
+.contact .nav .close.darkmode:hover {
+  background-color: #292e39;
+  color: #bf616a;
+}
+.contact .contact-main {
+  width: 100vw;
+  height: 90%;
+  order: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.contact .contact-main .contact-speech-bubble {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  font-size: 5rem;
+  color: #88c0d0;
+}
+@media (min-width: 920px) {
+  .contact .contact-main .contact-speech-bubble {
+    top: 28%;
+    left: 25%;
+  }
+}
+.contact .contact-main .contact-title {
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  font-size: 4rem;
+  color: #4c566a;
+}
+@media (min-width: 920px) {
+  .contact .contact-main .contact-title {
+    top: 28%;
+    left: 33%;
+  }
+}
+.contact .contact-main .contact-title.darkmode {
+  color: #ffffff;
+}
+.contact .contact-main .contact-message {
+  height: 7%;
+  position: absolute;
+  top: 45%;
+  left: 10%;
+  padding: 0.5rem;
+  border-left: 4px solid #88c0d0;
+  font-size: 1rem;
+}
+@media (min-width: 700px) {
+  .contact .contact-main .contact-message {
+    top: 30%;
+  }
+}
+@media (min-width: 920px) {
+  .contact .contact-main .contact-message {
+    top: 45%;
+    left: 25%;
+    padding: 1rem;
+  }
+}
+@media (min-width: 1400px) {
+  .contact .contact-main .contact-message {
+    top: 40%;
+    padding: 1rem;
+  }
+}
+.contact .contact-main .contact-message.darkmode {
+  color: #ffffff;
+}
+
+.contact.darkmode {
+  background-color: #3b4254;
+}/*# sourceMappingURL=Contact.css.map */

@@ -1,0 +1,174 @@
+@import "./Variables.scss";
+
+.hero{
+    width: 100vw;
+    height: 20%;
+    position: relative;
+    background-color: $white;
+
+
+ 
+  
+
+    .hero-title{
+        font-size: 1.8rem;
+        font-weight: 500;
+        color: $darkGreyFont;
+        position: absolute;
+        top: 5%;
+        left: 20%;
+
+        @media (min-width: 500px) {
+            font-size: 3.7rem;
+          }
+          @media (min-width: 920px) {
+            font-size: 2.5rem;
+            font-weight: 800;
+            top: 15%;
+            left: 5%;
+          }
+          @media (min-width: 1500px) {
+            font-size: 3rem;
+          }
+          @media (min-width: 1900px) {
+            font-size: 3.2rem;
+          }
+
+    }
+
+    .hero-title.darkmode{
+      color: $white;
+    }
+
+    .hero-copy{
+        font-size: 1.1rem;
+        font-weight: 300;
+        color: $darkGreyFont;
+        position: absolute;
+        top: 15%;
+        left: 15%;
+  
+        @media (min-width: 500px) {
+          font-size: 1.4rem;
+          top: 40%;
+        }
+        @media (min-width: 920px) {
+          font-size: 0.9rem;
+          font-weight: 400;
+          top: 20%;
+          left: 6%;
+        }
+        @media (min-width: 1100px) {
+          font-size: 1.2rem;
+        }
+        @media (min-width: 1600px) {
+          font-size: 1.3rem;
+        }
+
+    }
+    .hero-copy.darkmode{
+      color: $white;
+    }
+
+    .hero-contact{
+        width: 8rem;
+        height: 3rem;
+        position: absolute;
+        top: 22%;
+        left: 30%;
+        border: 2px solid $ice;
+        outline: none;
+        background-color: $ice;
+        color: $white;
+        font-weight: 600;
+        cursor: pointer;
+        &:hover {
+          border: 3px solid $ice;
+          color: $ice;
+          background-color: $white;
+        }
+  
+        @media (min-width: 500px) {
+          top: 60%;
+          left: 45%;
+        }
+        @media (min-width: 920px) {
+          width: 14rem;
+          height: 3rem;
+          border-radius: 2rem;
+          top: 25%;
+          left: 15%;
+        }
+        @media (min-width: 1600px) {
+          left: 25%;
+        }
+
+    }
+
+    .hero-contact.darkmode{
+      color: $ice;
+      background-color: $nordGrey;
+    }
+    .hero-img{
+
+        background-image: url("../Assets/Hero7.svg");
+        display: none;
+        z-index: 0;
+  
+        @media (min-width: 920px) {
+          width: 1300px;
+          height: 1500px;
+          display: inline;
+          position: absolute;
+          border: none;
+          top: -35%;
+          right: -23%;
+          z-index: 0;
+  
+          //top: -45%;
+          //right: -22%;
+        }
+  
+        @media (min-width: 1450px) {
+          width: 1300px;
+          height: 1500px;
+          display: inline;
+          position: absolute;
+          border: none;
+          top: -45%;
+          right: -25%;
+          z-index: 0;
+        }
+  
+        @media (min-width: 1600px) {
+          width: 1300px;
+          height: 1500px;
+          display: inline;
+          position: absolute;
+          border: none;
+          top: -35%;
+          right: -30%;
+          z-index: 1;
+        }
+
+    }
+    .hero-img.darkmode{
+      background-image: url("../Assets/Hero8.svg");
+    }
+
+    .hero-wave{
+        position: absolute;
+        bottom: 0; 
+    }
+
+    .hero-wave.darkmode{
+      path{
+        fill: $nordDarkerGrey;
+      }
+    }
+}
+
+.hero.darkmode{
+  background-color: $nordGrey;
+}
+

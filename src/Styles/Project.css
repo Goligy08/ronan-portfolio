@@ -1,0 +1,350 @@
+.modal-overlay {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #eceff4;
+  z-index: 10;
+}
+.modal-overlay .modal {
+  width: 80%;
+  height: 60%;
+  background-color: #ffffff;
+  border-radius: 2vh;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+.modal-overlay .modal .modal-header {
+  width: 100%;
+  height: 10%;
+  position: absolute;
+  top: 0;
+}
+.modal-overlay .modal .modal-header .modal-title {
+  color: #4c566a;
+  position: absolute;
+  left: 50%;
+}
+.modal-overlay .modal .modal-header .modal-close {
+  width: 2rem;
+  height: 2rem;
+  border: none;
+  outline: none;
+  position: absolute;
+  background-color: transparent;
+  cursor: pointer;
+  top: 2%;
+  right: 2%;
+}
+.modal-overlay .modal .modal-header .modal-close .close-mark {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #4c566a;
+}
+.modal-overlay .modal .modal-aside {
+  width: 30%;
+  height: 90%;
+  position: absolute;
+  top: 10%;
+  left: 0;
+}
+.modal-overlay .modal .modal-aside .modal-img {
+  width: 100%;
+  height: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.modal-overlay .modal .modal-aside ul {
+  width: 100%;
+  height: 20%;
+  bottom: 0;
+}
+.modal-overlay .modal .modal-aside ul li {
+  display: inline-block;
+  margin: 2% 5% 0 0;
+  color: #7b88a1;
+  padding: 0.3rem;
+  border-radius: 2vh;
+}
+.modal-overlay .modal .modal-aside ul li a {
+  padding: 0.2rem 0.5rem;
+  color: #4c566a;
+}
+.modal-overlay .modal .modal-aside.darkmode li a {
+  color: #ffffff;
+}
+.modal-overlay .modal .modal-main {
+  width: 50%;
+  height: 90%;
+  position: absolute;
+  top: 10%;
+  right: 0;
+}
+.modal-overlay .modal .modal-main h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 5% 0 5% 5%;
+  color: #4c566a;
+}
+.modal-overlay .modal .modal-main p {
+  font-size: 1.1rem;
+  padding: 0 2% 0 2%;
+  line-height: 150%;
+  color: #4c566a;
+}
+.modal-overlay .modal .modal-main button {
+  background-color: #48b0c8;
+  font-weight: 800;
+  color: #ffffff;
+  width: 10rem;
+  height: 2.5rem;
+  border-radius: 2vh;
+  cursor: pointer;
+  position: absolute;
+  outline: none;
+  border: none;
+}
+.modal-overlay .modal .modal-main .modal-demo-btn {
+  bottom: 2%;
+  right: 40%;
+}
+.modal-overlay .modal .modal-main .modal-repo-btn {
+  bottom: 2%;
+  right: 5%;
+}
+.modal-overlay .modal .modal-main.darkmode h3 {
+  color: #ffffff;
+}
+.modal-overlay .modal .modal-main.darkmode p {
+  color: #ffffff;
+}
+.modal-overlay .modal.darkmode {
+  background-color: #3b4254;
+}
+
+.modal-overlay.darkmode {
+  background-color: #292e39;
+}
+
+.project {
+  height: 580px;
+  width: 90%;
+  margin: 10% 0 10% 0;
+  border-radius: 1rem;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+}
+@media (min-width: 500px) {
+  .project {
+    min-height: 600px;
+    width: 80%;
+    margin: 10% 0 10% 5%;
+  }
+}
+@media (min-width: 920px) {
+  .project {
+    min-height: 600px;
+    width: 550px;
+    margin: 10% 0 10% 0;
+  }
+}
+@media (min-width: 1600px) {
+  .project {
+    min-height: 600px;
+    width: 450px;
+    margin: 10% 0 10% 5%;
+  }
+}
+.project .project-title {
+  position: absolute;
+  max-width: 80%;
+  max-height: 25%;
+  top: 1%;
+  left: 40%;
+  color: #4c566a;
+}
+.project .project-desc {
+  max-height: 20%;
+  overflow: scroll;
+  width: 90%;
+  position: absolute;
+  top: 60%;
+  right: 5%;
+  color: #4c566a;
+}
+@media (min-width: 500px) {
+  .project .project-desc {
+    top: 65%;
+    right: 5%;
+  }
+}
+@media (min-width: 920px) {
+  .project .project-desc {
+    top: 60%;
+    right: 5%;
+  }
+}
+@media (min-width: 1600px) {
+  .project .project-desc {
+    top: 65%;
+    right: 5%;
+  }
+}
+.project .project-img {
+  width: 90%;
+  height: 50%;
+  position: absolute;
+  top: 8%;
+  left: 5%;
+  z-index: 2;
+  border-radius: 1.2vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media (min-width: 500px) {
+  .project .project-img {
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}
+.project .project-technologies {
+  width: 50%;
+  height: 10%;
+  position: absolute;
+  top: 85%;
+  left: 5%;
+  list-style: none;
+}
+.project .project-technologies li {
+  display: inline-block;
+  margin: 2% 5% 0 0;
+  color: #7b88a1;
+  border: 2px solid #7b88a1;
+  padding: 0.3rem;
+  border-radius: 2vh;
+}
+@media (min-width: 500px) {
+  .project .project-technologies {
+    right: 1%;
+  }
+}
+@media (min-width: 920px) {
+  .project .project-technologies {
+    top: 83%;
+    right: 2%;
+  }
+}
+@media (min-width: 1600px) {
+  .project .project-technologies {
+    right: 1%;
+  }
+}
+.project .project-git-button {
+  z-index: 10;
+  width: 2.8rem;
+  height: 2.8rem;
+  border-radius: 1rem;
+  border: none;
+  position: absolute;
+  outline: none;
+  top: 89%;
+  right: 80%;
+  background-color: inherit;
+  cursor: pointer;
+}
+@media (min-width: 500px) {
+  .project .project-git-button {
+    top: 90%;
+  }
+}
+@media (min-width: 920px) {
+  .project .project-git-button {
+    top: 89%;
+    right: 28%;
+  }
+}
+.project .project-git-button i {
+  font-size: 2.5rem;
+  color: #88c0d0;
+}
+.project .project-demo-button {
+  z-index: 10;
+  width: 12rem;
+  height: 2rem;
+  border-radius: 1rem;
+  position: absolute;
+  outline: none;
+  border: 2px solid #88c0d0;
+  top: 90%;
+  right: 10%;
+  background-color: inherit;
+  color: #88c0d0;
+  cursor: pointer;
+}
+@media (min-width: 500px) {
+  .project .project-demo-button {
+    width: 8rem;
+    height: 2.5rem;
+    height: 2.5rem;
+    right: 1%;
+  }
+}
+@media (min-width: 920px) {
+  .project .project-demo-button {
+    width: 8rem;
+    height: 2.5rem;
+    top: 89%;
+    right: 2%;
+  }
+}
+@media (min-width: 1600px) {
+  .project .project-demo-button {
+    width: 8rem;
+    height: 2.5rem;
+    right: 1%;
+  }
+}
+.project .project-demo-button i {
+  font-weight: 400;
+  position: absolute;
+  left: 15%;
+  top: 28%;
+}
+.project .project-demo-button span {
+  position: absolute;
+  left: 80%;
+  top: 30%;
+}
+.project .project-demo-button .project-expand {
+  width: 50%;
+  height: 50%;
+}
+.project:hover .project-demo-button {
+  background-color: #88c0d0;
+  color: #ffffff;
+  border: 2px solid #88c0d0;
+}
+
+.project.darkmode {
+  background-color: #3b4254;
+}
+.project.darkmode p {
+  color: #ffffff;
+}
+.project.darkmode ul {
+  color: #ffffff;
+}
+
+.project-button.darkmode {
+  background-color: #3b4254;
+}/*# sourceMappingURL=Project.css.map */

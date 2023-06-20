@@ -1,0 +1,93 @@
+@import "./Variables.scss";
+
+*,
+*:before,
+*:after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.navbar{
+    width: 100vw;
+    height: 3%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    position: relative;
+    top: 0;
+    font-family: $mainFont;
+   
+
+   
+
+    .logo{
+        
+        background-image: url("../Assets/Portfolio\ Logo\ LightMode.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 3.9rem;
+        height: 3.9rem;
+        position: absolute;
+        top: 8%;
+        left: 3%;
+        order: 1;
+    }
+    .logo.darkmode{
+      background-image: url("../Assets/Portfolio\ Logo\ DarkMode.svg");
+    }
+
+    .desk-menu {
+        @media (min-width: 920px) {
+            width: 30%;
+            order: 2;
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+            position: absolute;
+            top: 20%;
+            right: 0;
+            z-index: 11;
+
+            .dark{
+              background-color: transparent;
+              outline: none;
+              border: none;
+              cursor: pointer;
+            }
+
+          
+    
+            li {
+              font-weight: 600;
+              padding: 0.2rem;
+              border-radius: 0.2rem;
+              font-size: 1rem;
+              color: $darkGreyFont;
+              &:hover {
+                background-color: $teal;
+                opacity: 0.6;
+              }
+              @media (min-width: 1100px) {
+                font-size: 1rem;
+              }
+              @media (min-width: 1600px) {
+                font-size: 1.2rem;
+              }
+            }
+            a {
+              text-decoration: none;
+            }
+          }
+    }
+}
+
+.navbar.darkmode{
+  background-color: $nordGrey;
+}
+

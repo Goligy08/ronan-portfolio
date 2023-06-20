@@ -1,0 +1,84 @@
+.contact-form-container .contact-form {
+  width: 80%;
+  height: 250%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: stretch;
+  position: relative;
+  top: 220%;
+  left: 0;
+  background-color: rgba(236, 239, 244, 0.4);
+  border-radius: 2rem;
+}
+@media (min-width: 920px) {
+  .contact-form-container .contact-form {
+    width: 50%;
+    height: 250%;
+    top: 180%;
+    margin: 0 auto;
+  }
+}
+.contact-form-container .contact-form .contact-form-element {
+  width: 70%;
+  height: 10%;
+  margin: 0 auto;
+  position: relative;
+}
+.contact-form-container .contact-form .contact-form-element i {
+  position: absolute;
+  top: 35%;
+  right: 5%;
+  visibility: hidden;
+}
+.contact-form-container .contact-form .contact-form-element .name .error {
+  border: 2px solid red;
+}
+.contact-form-container .contact-form input,
+.contact-form-container .contact-form textarea {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  outline: none;
+  border: none;
+  padding: 0.5rem;
+  color: #7b88a1;
+}
+.contact-form-container .contact-form input input::-moz-placeholder {
+  color: #7b88a1;
+}
+.contact-form-container .contact-form input input::placeholder {
+  color: #7b88a1;
+}
+.contact-form-container .contact-form textarea {
+  resize: vertical;
+  color: #7b88a1;
+  max-height: 150px;
+}
+.contact-form-container .contact-form textarea textarea::-webkit-input-placeholder,
+.contact-form-container .contact-form textarea textarea::-moz-placeholder {
+  color: #7b88a1;
+}
+.contact-form-container .contact-form .contact-submit {
+  width: 8rem;
+  height: 3rem;
+  margin: 0 0 0 10%;
+  background-color: #88c0d0;
+  opacity: 0.9;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.contact-form-container .contact-form .contact-submit:hover {
+  opacity: 1;
+}
+.contact-form-container .contact-form.darkmode {
+  background-color: #292e39;
+}
+.contact-form-container p {
+  color: #bf616a;
+}/*# sourceMappingURL=ContactForm.css.map */

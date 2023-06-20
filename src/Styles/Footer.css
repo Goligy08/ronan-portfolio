@@ -1,0 +1,137 @@
+.footer {
+  width: 100%;
+  height: 3%;
+  background-color: #ffffff;
+  position: relative;
+}
+@media (min-width: 500px) {
+  .footer {
+    height: 4%;
+  }
+}
+@media (min-width: 920px) {
+  .footer {
+    height: 2%;
+  }
+}
+.footer .footer-contact {
+  width: 8rem;
+  height: 3rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 0.2rem;
+  background-color: #88c0d0;
+  position: absolute;
+  color: #ffffff;
+  top: 5%;
+  left: 2%;
+}
+@media (min-width: 920px) {
+  .footer .footer-contact {
+    width: 10rem;
+    height: 3rem;
+    font-weight: 600;
+    top: 10%;
+  }
+}
+.footer h3 {
+  color: #7b88a1;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+.footer .copy {
+  width: 15%;
+  height: 30%;
+  position: absolute;
+  top: 60%;
+  left: 1.9%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer .copy .copy-name {
+  order: 1;
+  width: 100%;
+  height: 60%;
+  display: flex;
+  align-items: baseline;
+}
+.footer .copy .copy-name .copyright-icon.darkmode {
+  color: #ffffff;
+}
+.footer .copy .copy-name .name {
+  position: absolute;
+  left: 10%;
+  color: #5e81ac;
+  font-weight: 600;
+}
+.footer .copy .copy-name .year {
+  position: absolute;
+  left: 58%;
+  font-weight: 600;
+}
+.footer .copy .copy-name .year.darkmode {
+  color: #ffffff;
+}
+.footer .copy .copy-location {
+  order: 2;
+  width: 100%;
+  height: 50%;
+  display: flex;
+}
+.footer .copy .copy-location .location {
+  position: absolute;
+  left: 10%;
+  font-weight: 600;
+}
+.footer .copy .copy-location .location.darkmode {
+  color: #ffffff;
+}
+.footer .copy .copy-location .location-icon {
+  color: #5e81ac;
+  font-weight: 900;
+}
+.footer .socials {
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  display: flex;
+  justify-content: space-around;
+}
+.footer .socials i {
+  font-size: 1.3rem;
+  color: #7b88a1;
+  cursor: pointer;
+}
+.footer .socials i:hover {
+  color: #88c0d0;
+}
+@media (min-width: 1100px) {
+  .footer .socials i {
+    font-size: 1.4rem;
+  }
+}
+@media (min-width: 1600px) {
+  .footer .socials i {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 920px) {
+  .footer .socials {
+    width: 15%;
+    justify-content: space-evenly;
+    top: 65%;
+  }
+}
+.footer .socials.darkmode i {
+  color: #ffffff;
+}
+.footer .socials.darkmode i:hover {
+  color: #88c0d0;
+}
+
+.footer.darkmode {
+  background-color: #3b4254;
+}/*# sourceMappingURL=Footer.css.map */
