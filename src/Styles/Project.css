@@ -217,6 +217,12 @@
        object-fit: contain;
   }
 }
+@media (min-width: 920px) {
+  .project .project-img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
 .project .project-technologies {
   width: 50%;
   height: 10%;

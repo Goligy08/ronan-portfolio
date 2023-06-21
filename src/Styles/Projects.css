@@ -49,9 +49,6 @@
   color: white;
   border: 2px solid white;
 }
-.projects .projects-container .special-project:first-of-type:hover img {
-  transform: scale(1.05);
-}
 .projects .projects-container .special-project:first-of-type:hover .special-demo-button {
   background-color: white;
   color: #367BF3;
