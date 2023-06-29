@@ -5,6 +5,7 @@
     width: 100%;
     height: 3%;
     position: relative;
+    
  
 
     .logo{
@@ -18,11 +19,16 @@
         left: 0;
        
     }
+    .logo.darkmode{
+        background-image: url("../Assets/Portfolio\ Logo\ DarkMode.svg");
+      }
+  
 
     .mobile-hamburger{
       width: 4rem;
       height: 4rem;
       outline: none;
+      border: none;
       background-color: $white;
       position: absolute;
       top: 0;
@@ -33,11 +39,16 @@
         font-size: 2rem;
       }
     }
+    .mobile-hamburger.darkmode{
+        background-color: $nordGrey;
+        color: $white;
+    }
 
     .mobile-menu{
         width: 100%;
-        height: 50%;
+        height: 70%;
         position: absolute;
+        border-bottom: 2px solid #D8D8D8;
         top: 40%;
         z-index: 51;
         line-height: 2;

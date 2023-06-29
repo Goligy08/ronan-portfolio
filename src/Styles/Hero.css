@@ -2,7 +2,7 @@
   width: 100vw;
   height: 20%;
   position: relative;
-  background-color: #ffffff;
+  background: #ffffff;
 }
 .hero .hero-title {
   font-size: 1.8rem;
@@ -158,6 +158,26 @@
 }
 .hero .hero-img.darkmode {
   background-image: url("../Assets/Hero8.svg");
+}
+.hero .hero-mobile-img {
+  width: 80%;
+  height: 400px;
+  position: absolute;
+  top: 45%;
+  left: 0;
+  -o-object-fit: fill;
+     object-fit: fill;
+  background-image: url("../Assets/mobileHero.svg");
+  display: inline;
+  border: 2px solid red;
+}
+@media (min-width: 920px) {
+  .hero .hero-mobile-img {
+    display: none;
+  }
+}
+.hero .hero-mobile-img.darkmode {
+  background-image: url("../Assets/mobileHeroDark.svg");
 }
 .hero .hero-wave {
   position: absolute;

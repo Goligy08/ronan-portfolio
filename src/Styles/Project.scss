@@ -230,13 +230,15 @@
         overflow: scroll;
         width: 90%;
         position: absolute;
-        top: 60%;
+        top: 55%;
         right: 5%;
         color: $darkGreyFont;
+       
 
         @media (min-width: 500px) {
-          top: 65%;
+          top: 55%;
           right: 5%;
+          
          
         }
         @media (min-width: 920px) {
@@ -255,18 +257,25 @@
         width: 90%;
         height: 50%;
         position: absolute;
-        top: 8%;
+        top: 2%;
         left: 5%;
         z-index: 2;
         border-radius: 1.2vh;
         object-fit: cover;
+      
+   
 
         @media (min-width: 500px) {
+         height: 45%;
          object-fit: contain;
+         top: 8%;
+       
          
         }
         @media (min-width: 920px) {
+          height: 50%;
           object-fit: cover;
+          top: 8%;
         
         
         }
@@ -276,22 +285,30 @@
       }
 
       .project-technologies{
-        width: 50%;
-        height: 10%;
+        width: 100%;
+        height: 8%;
         position: absolute;
-        top: 85%;
-        left: 5%;
+        top: 75%;
+        left: 0;
         list-style: none;
-
+        float: left;
+    
+       
+         
         li{
           display: inline-block;
-          margin: 2% 5% 0 0;
-          color: $lightGreyFont;
-          border: 2px solid $lightGreyFont;
+          margin: 1% 5% 0 2%;
+          color: $ice;
+          border: 1px solid $ice;
+          font-weight: light;
           padding: 0.3rem;
           border-radius: 2vh;
-          
+
+         
         }
+
+
+        
 
         @media (min-width: 500px) {
           right: 1%;
@@ -322,10 +339,11 @@
 
         @media (min-width: 500px) {
           top: 90%;
+          right: 28%;
           
         }
         @media (min-width: 920px) {
-          top: 89%;
+          top: 92%;
           right: 28%;
          
         }
@@ -363,7 +381,7 @@
         @media (min-width: 920px) {
           width: 8rem;
           height: 2.5rem;
-          top: 89%;
+          top: 92%;
           right: 2%;
         }
         @media (min-width: 1600px) {

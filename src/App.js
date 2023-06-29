@@ -85,18 +85,33 @@ let toggleDarkMode = darkMode ? ' darkmode' : '' ;
     return (
       
       <Router>
-      <div className='app'>
+      <div className={`app${toggleDarkMode}`}>
         <Switch>
           <Route exact path="/">
-              <MobileNav/>
-              <Hero />
-              <Projects />
-      
-              <Footer />
+              <MobileNav
+              
+              handleClickEvent={handleClickEvent}
+              toggleDarkMode={toggleDarkMode}
+              />
+              <Hero 
+              
+               toggleDarkMode={toggleDarkMode}
+              />
+              <Projects
+               
+               toggleDarkMode={toggleDarkMode}
+              />
+           
+              <Footer 
+              
+               toggleDarkMode={toggleDarkMode}
+              />
          </Route>
 
          <Route path="/contact">
-            <Contact/>
+            <Contact
+            toggleDarkMode={toggleDarkMode}
+            />
          </Route>
 
       

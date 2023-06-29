@@ -76,14 +76,15 @@
         max-height: 20%;
         overflow: scroll;
         position: absolute;
-        top: 55%;
+        top: 50%;
         left: 10%;
         color: $darkGreyFont;
+  
 
         @media (min-width: 500px) {
             width: 50%;
             min-height: 60%;
-            top: 20%;
+            top: 15%;
             left: 45%;
            
           }
@@ -113,10 +114,11 @@
         z-index: 2;
         border-radius: 1.2vh;
         object-fit: cover;
+      
 
         @media (min-width: 500px) {
             width: 40%;
-            height: 80%;
+            height: 60%;
             object-fit: contain;
             top: 8%;
             left: 2%;
@@ -141,27 +143,29 @@
 
 
       .special-project-technologies{
-        width: 50%;
+        width: 90%;
         height: 10%;
         position: absolute;
-        top: 85%;
-        left: 15%;
+        top: 72%;
+        left: 5%;
         list-style: none;
+     
 
         li{
           display: inline-block;
           margin: 2% 5% 0 0;
-          color: $lightGreyFont;
-          border: 2px solid $lightGreyFont;
+          color: $white;
+          border: 1px solid $white;
+          font-weight: light;
           padding: 0.3rem;
           border-radius: 2vh;
         }
 
         @media (min-width: 500px) {
-            width: 50%;
+            width: 90%;
             height: 10%;
-            top: 82%;
-            left: 40%;
+            top: 75%;
+            left: 5%;
     
           }
           @media (min-width: 920px) {

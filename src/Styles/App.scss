@@ -10,10 +10,11 @@
 
 .app{
     width: 100vw;
-    height: 5400px;
+    height: 5800px;
     display: flex;
     flex-direction: column;
     font-family: "Source Code Pro", monospace;
+    overflow-x: hidden;
 
     @media (min-width: 500px) {
      height: 6400px;

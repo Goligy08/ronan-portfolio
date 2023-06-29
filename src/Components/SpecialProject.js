@@ -25,7 +25,12 @@ const SpecialProject = ({toggleDarkMode, title, description, image, technologies
         <motion.img variants={anImage} className="special-project-img" src={image}></motion.img>
         <h2 className="special-project-title">{title}</h2>
         <p className="special-project-desc">{description}</p>
-        <ul className="special-project-technologies">{technologies}</ul>
+        <ul className="special-project-technologies">
+        {technologies.map((technology) => (
+                <li>{technology}</li>
+            ))}
+        
+        </ul>
         <button className="special-git-button"><i>
             <FontAwesomeIcon icon={faGithub}/>
         </i></button>

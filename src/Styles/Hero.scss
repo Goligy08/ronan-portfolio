@@ -4,7 +4,9 @@
     width: 100vw;
     height: 20%;
     position: relative;
-    background-color: $white;
+    background: $white;
+
+    
 
 
  
@@ -154,6 +156,35 @@
     }
     .hero-img.darkmode{
       background-image: url("../Assets/Hero8.svg");
+    }
+
+    .hero-mobile-img{
+      width: 80%;
+      height: 400px;
+      position: absolute;
+      top: 45%;
+      left: 0;
+      background: url("../Assets/mobileHero.svg");
+      background-size: 200%;
+      background-position-y: 50%;
+      background-position-x: 70%;
+      display: inline;
+  
+
+
+
+      @media (min-width: 500px){
+        display: none;
+      }
+
+      @media (min-width: 920px) {
+        display: none;
+      }
+    }
+
+    .hero-mobile-img.darkmode{
+      background-image: url("../Assets/mobileHeroDark.svg");
+
     }
 
     .hero-wave{

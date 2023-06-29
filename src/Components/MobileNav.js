@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
 
-const MobileNav = () => {
+const MobileNav = ({toggleDarkMode}) => {
 
     const [showMenu, setShowMenu] = useState(false)
 
@@ -30,8 +30,8 @@ const MobileNav = () => {
     return (
         
        <div className="mobile-nav">
-        <div className="logo"></div>
-        <button className="mobile-hamburger">
+        <div className={`logo${toggleDarkMode}`}></div>
+        <button className={`mobile-hamburger${toggleDarkMode}`}>
             <FontAwesomeIcon icon={faBars} className="mobile-icon"
               onClick={() => setShowMenu(!showMenu) }
             >

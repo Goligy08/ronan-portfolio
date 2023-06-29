@@ -224,20 +224,17 @@
   }
 }
 .project .project-technologies {
-  width: 50%;
-  height: 10%;
+  width: 90%;
+  height: 8%;
   position: absolute;
   top: 85%;
   left: 5%;
   list-style: none;
-}
-.project .project-technologies li {
-  display: inline-block;
-  margin: 2% 5% 0 0;
+  display: block;
+  float: left;
+  border: 2px solid red;
   color: #7b88a1;
-  border: 2px solid #7b88a1;
-  padding: 0.3rem;
-  border-radius: 2vh;
+  padding: 1rem 0.5rem;
 }
 @media (min-width: 500px) {
   .project .project-technologies {

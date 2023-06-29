@@ -14,9 +14,11 @@ const anImage = {
     animate: {scale: 1.1},
  }
 
+
+
 const Project = ({toggleDarkMode , title, description, image, technologies}) => {
 
-   
+  
     
 
     return (
@@ -29,7 +31,11 @@ const Project = ({toggleDarkMode , title, description, image, technologies}) => 
         <motion.img variants={anImage} className="project-img" src={image}></motion.img>
         <h2 className="project-title">{title}</h2>
         <p className="project-desc">{description}</p>
-        <ul className="project-technologies">{technologies}</ul>
+        <ul className="project-technologies">
+            {technologies.map((technology) => (
+                <li>{technology}</li>
+            ))}
+        </ul>
         <button className="project-git-button"><i>
             <FontAwesomeIcon icon={faGithub}/>
         </i></button>
