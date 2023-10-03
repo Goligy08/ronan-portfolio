@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="450px" height="350px" viewBox="0 0 450 350" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 6</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Extra-Large-Copy-6" transform="translate(-90.000000, -481.000000)">
+            <g id="Group-6" transform="translate(90.000000, 481.000000)">
+                <rect id="Rectangle" fill="#295767" x="0" y="0" width="450" height="350" rx="24"></rect>
+                <circle id="Oval" stroke="#8FD8F9" stroke-width="14" fill="#295767" cx="228" cy="160" r="103"></circle>
+                <path d="M260.121862,95.5900936 L260.121862,191.705552 L259.931862,191.705094 L259.93268,215.590094 L199.881862,215.590094 L199.881862,191.561229 L236.100862,191.561094 L236.101534,95.5900936 L260.121862,95.5900936 Z" id="Combined-Shape" fill="#8FD8F9" transform="translate(230.001862, 155.590094) rotate(36.000000) translate(-230.001862, -155.590094) "></path>
+                <ellipse id="Oval" fill="#295767" cx="370" cy="89" rx="80" ry="86"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>
