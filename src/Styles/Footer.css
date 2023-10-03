@@ -41,7 +41,7 @@
   font-size: 0.9rem;
 }
 .footer .copy {
-  width: 15%;
+  width: 40%;
   height: 30%;
   position: absolute;
   top: 60%;
@@ -50,12 +50,22 @@
   flex-direction: column;
   justify-content: center;
 }
+@media (min-width: 920px) {
+  .footer .copy {
+    width: 15%;
+  }
+}
 .footer .copy .copy-name {
   order: 1;
-  width: 100%;
+  width: 200%;
   height: 60%;
   display: flex;
   align-items: baseline;
+}
+@media (min-width: 920px) {
+  .footer .copy .copy-name {
+    width: 100%;
+  }
 }
 .footer .copy .copy-name .copyright-icon.darkmode {
   color: #ffffff;
@@ -66,10 +76,30 @@
   color: #5e81ac;
   font-weight: 600;
 }
+@media (min-width: 500px) {
+  .footer .copy .copy-name .name {
+    left: 5%;
+  }
+}
+@media (min-width: 920px) {
+  .footer .copy .copy-name .name {
+    left: 10%;
+  }
+}
 .footer .copy .copy-name .year {
   position: absolute;
-  left: 58%;
+  left: 80%;
   font-weight: 600;
+}
+@media (min-width: 500px) {
+  .footer .copy .copy-name .year {
+    left: 40%;
+  }
+}
+@media (min-width: 920px) {
+  .footer .copy .copy-name .year {
+    left: 58%;
+  }
 }
 .footer .copy .copy-name .year.darkmode {
   color: #ffffff;
@@ -84,6 +114,16 @@
   position: absolute;
   left: 10%;
   font-weight: 600;
+}
+@media (min-width: 500px) {
+  .footer .copy .copy-location .location {
+    left: 5%;
+  }
+}
+@media (min-width: 920px) {
+  .footer .copy .copy-location .location {
+    left: 10%;
+  }
 }
 .footer .copy .copy-location .location.darkmode {
   color: #ffffff;

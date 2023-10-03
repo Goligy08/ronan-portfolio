@@ -4,9 +4,10 @@
         "title": "Climate Check",
         "image": "/Images/WeatherAppLogo.svg",
         "description": [
-            "Outfit aims to be a modern, clean easy to use retail clothing site. Featuring a simple & easy to navigate UI.",
-            "This fully functional e-commerce front end aims to replicate many popular e-commerce clothing sites and implements a variety of features including favourites list as well as fully functional shopping cart & payment screens.",
-             "The UI contains a highly responsive custom built theme, which is adaptive to many major devices."
+            "Climate Check is a web based application developed in React offering real-time weather forecasts. ",
+            "Climate Check offers a seamless user experience and reliable results. Stay informed about temperature, humidity, wind speed, and more.",
+            
+            "This applications uses the OpenWeatherMap API to display current weather conditions based on the users search query."
         ],
         "webTechnologies": [
             "HTML",
@@ -25,8 +26,8 @@
         "title": "Outfit",
         "image": "/Images/OutfitBg.png",
         "description": [
-            "Outfit aims to be a modern, clean easy to use retail clothing site. Featuring a simple & easy to navigate UI.",
-            "This fully functional e-commerce front end aims to replicate many popular e-commerce clothing sites and implements a variety of features including favourites list as well as fully functional shopping cart & payment screens.",
+            "Outfit is a web application developed in vanilla JavaScript which demonstrates the front-end of a modern, clean, easy to use retail clothing site. Featuring a simple & easy to navigate UI.",
+            "This fully functional e-commerce front end aims to replicate many popular e-commerce clothing sites and implements a variety of features including a favourites list as well as fully functional shopping cart & payment screens, complete with form validation.",
              "The UI contains a highly responsive custom built theme, which is adaptive to many major devices."
         ],
         "webTechnologies": [
@@ -46,8 +47,8 @@
         "title": "Damians' Hairdressing",
         "image": "/Images/DamiansLogo.svg",
         "description": [
-            "This single page website demonstrates the tools & features employed on a fully responsive business website. The project aims to project a modern and user friendly UI to display business information, news and contact details in a clear and purposeful fashion.",
-            "The project is fully responsive to most major devices allowing for an adaptive experience."
+            "This single page website demonstrates the tools & features employed on a fully responsive business website. The project aims to exhibit a modern and user friendly User Interface to display business information, news and contact details in a clear and purposeful fashion.",
+            "The project is fully responsive to most major desktop, mobiel & tablet devices allowing for an adaptive experience."
         ],
         "webTechnologies": [
             "HTML",
@@ -66,8 +67,9 @@
         "title": "Meal Mate",
         "image": "/Images/MealMateLogo.svg",
         "description": [
-            "Meal Mate is a web application which aims to provide users with recipe suggestions. The app uses 'The MealDB' API in order to display meal recipes based on search term or filtered option.",
-            "Users query the API by providing or selecting a main ingredient. Users can also maintain a list of favourite recipes for consideration using the favourite feature without the need for registering an account."
+            "Meal Mate is a React based web application which provides users with recipe suggestions. This application uses 'The MealDB' API in order to display meal recipes based on search term or filtered options.",
+            "Users query the API by providing or selecting a main ingredient. Users can also maintain a list of favourite recipes for consideration using the favourite feature without the need for registering an account.",
+            "Clicking on a recipe card displays additional information on such as cooking times, ingredient lists and comprehensive cooking instructions."
         ],
         "webTechnologies": [
             "HTML",
@@ -86,7 +88,7 @@
         "title": "The Movie DB",
         "image": "/Images/TheMovieDBLogo.svg",
         "description": [
-            "The Movie Database enables users to search for movies and TV Shows.",
+            "The Movie Database is a web based application written in vanilla JavaScript which enables users to search for movies and TV Shows.",
             "This single page web application employs the use of 'TMDB' (The Movie Database) API to populate movies and TV Shows. The user is able to search for content either by entering a search query or by filtering data based on catgeory.",
             "Hovering over each movie entry displays the description. The Movie Database API allows users to locate & explore new movies/genres without the need for an account.",
             "This application could be further enhanced to incorporate user accounts to allow users to store favourites & rate movies."
@@ -108,7 +110,9 @@
         "title": "Todo List App",
         "image": "/Images/TodoListLogo.svg",
         "description": [
-            "Todo List app is a web application which aims to allow users to store todo items/goals."
+            "Task Master is a web application developed in React which allows users to stay organized and boost productivity with ease; ",
+            "Create, prioritize, and track tasks effortlessly.",
+            "Users can create & store todo items and mark each item as complete when needed."
            
         ],
         "webTechnologies": [

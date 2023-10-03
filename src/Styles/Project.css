@@ -178,13 +178,13 @@
   overflow: scroll;
   width: 90%;
   position: absolute;
-  top: 60%;
+  top: 55%;
   right: 5%;
   color: #4c566a;
 }
 @media (min-width: 500px) {
   .project .project-desc {
-    top: 65%;
+    top: 55%;
     right: 5%;
   }
 }
@@ -204,7 +204,7 @@
   width: 90%;
   height: 50%;
   position: absolute;
-  top: 8%;
+  top: 2%;
   left: 5%;
   z-index: 2;
   border-radius: 1.2vh;
@@ -213,28 +213,37 @@
 }
 @media (min-width: 500px) {
   .project .project-img {
+    height: 45%;
     -o-object-fit: contain;
        object-fit: contain;
+    top: 8%;
   }
 }
 @media (min-width: 920px) {
   .project .project-img {
+    height: 50%;
     -o-object-fit: cover;
        object-fit: cover;
+    top: 8%;
   }
 }
 .project .project-technologies {
-  width: 90%;
+  width: 100%;
   height: 8%;
   position: absolute;
-  top: 85%;
-  left: 5%;
+  top: 75%;
+  left: 0;
   list-style: none;
-  display: block;
   float: left;
-  border: 2px solid red;
-  color: #7b88a1;
-  padding: 1rem 0.5rem;
+}
+.project .project-technologies li {
+  display: inline-block;
+  margin: 1% 5% 0 2%;
+  color: #88c0d0;
+  border: 1px solid #88c0d0;
+  font-weight: light;
+  padding: 0.3rem;
+  border-radius: 2vh;
 }
 @media (min-width: 500px) {
   .project .project-technologies {
@@ -268,11 +277,12 @@
 @media (min-width: 500px) {
   .project .project-git-button {
     top: 90%;
+    right: 28%;
   }
 }
 @media (min-width: 920px) {
   .project .project-git-button {
-    top: 89%;
+    top: 92%;
     right: 28%;
   }
 }
@@ -306,7 +316,7 @@
   .project .project-demo-button {
     width: 8rem;
     height: 2.5rem;
-    top: 89%;
+    top: 92%;
     right: 2%;
   }
 }

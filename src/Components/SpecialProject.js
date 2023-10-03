@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { faGithub} from '@fortawesome/free-brands-svg-icons';
 import { faArrowRightLong } from '@fortawesome/free-solid-svg-icons';
-import { animate, motion } from "framer-motion";
+import { motion } from "framer-motion/dist/framer-motion";
 
 
 import "../Styles/SpecialProject.scss";

@@ -13,6 +13,9 @@
   top: 5%;
   left: 0;
 }
+.mobile-nav .logo.darkmode {
+  background-image: url("../Assets/Portfolio Logo DarkMode.svg");
+}
 .mobile-nav .mobile-hamburger {
   width: 4rem;
   height: 4rem;
@@ -25,6 +28,10 @@
 }
 .mobile-nav .mobile-hamburger .mobile-icon {
   font-size: 2rem;
+}
+.mobile-nav .mobile-hamburger.darkmode {
+  background-color: #3b4254;
+  color: #ffffff;
 }
 .mobile-nav .mobile-menu {
   width: 100%;

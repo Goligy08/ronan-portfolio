@@ -165,11 +165,16 @@
   position: absolute;
   top: 45%;
   left: 0;
-  -o-object-fit: fill;
-     object-fit: fill;
-  background-image: url("../Assets/mobileHero.svg");
+  background: url("../Assets/mobileHero.svg");
+  background-size: 200%;
+  background-position-y: 50%;
+  background-position-x: 70%;
   display: inline;
-  border: 2px solid red;
+}
+@media (min-width: 500px) {
+  .hero .hero-mobile-img {
+    display: none;
+  }
 }
 @media (min-width: 920px) {
   .hero .hero-mobile-img {

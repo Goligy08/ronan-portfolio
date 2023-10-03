@@ -89,6 +89,7 @@ body {
   width: 100vw;
   height: 20%;
   position: relative;
+  background: #ffffff;
 }
 .hero .hero-title {
   font-size: 1.8rem;
@@ -244,6 +245,31 @@ body {
 }
 .hero .hero-img.darkmode {
   background-image: url("../Assets/Hero8.svg");
+}
+.hero .hero-mobile-img {
+  width: 80%;
+  height: 400px;
+  position: absolute;
+  top: 45%;
+  left: 0;
+  background: url("../Assets/mobileHero.svg");
+  background-size: 200%;
+  background-position-y: 50%;
+  background-position-x: 70%;
+  display: inline;
+}
+@media (min-width: 500px) {
+  .hero .hero-mobile-img {
+    display: none;
+  }
+}
+@media (min-width: 920px) {
+  .hero .hero-mobile-img {
+    display: none;
+  }
+}
+.hero .hero-mobile-img.darkmode {
+  background-image: url("../Assets/mobileHeroDark.svg");
 }
 .hero .hero-wave {
   position: absolute;
@@ -487,7 +513,7 @@ body {
   font-size: 0.9rem;
 }
 .footer .copy {
-  width: 15%;
+  width: 40%;
   height: 30%;
   position: absolute;
   top: 60%;
@@ -496,12 +522,22 @@ body {
   flex-direction: column;
   justify-content: center;
 }
+@media (min-width: 920px) {
+  .footer .copy {
+    width: 15%;
+  }
+}
 .footer .copy .copy-name {
   order: 1;
-  width: 100%;
+  width: 200%;
   height: 60%;
   display: flex;
   align-items: baseline;
+}
+@media (min-width: 920px) {
+  .footer .copy .copy-name {
+    width: 100%;
+  }
 }
 .footer .copy .copy-name .copyright-icon.darkmode {
   color: #ffffff;
@@ -512,10 +548,30 @@ body {
   color: #5e81ac;
   font-weight: 600;
 }
+@media (min-width: 500px) {
+  .footer .copy .copy-name .name {
+    left: 5%;
+  }
+}
+@media (min-width: 920px) {
+  .footer .copy .copy-name .name {
+    left: 10%;
+  }
+}
 .footer .copy .copy-name .year {
   position: absolute;
-  left: 58%;
+  left: 80%;
   font-weight: 600;
+}
+@media (min-width: 500px) {
+  .footer .copy .copy-name .year {
+    left: 40%;
+  }
+}
+@media (min-width: 920px) {
+  .footer .copy .copy-name .year {
+    left: 58%;
+  }
 }
 .footer .copy .copy-name .year.darkmode {
   color: #ffffff;
@@ -530,6 +586,16 @@ body {
   position: absolute;
   left: 10%;
   font-weight: 600;
+}
+@media (min-width: 500px) {
+  .footer .copy .copy-location .location {
+    left: 5%;
+  }
+}
+@media (min-width: 920px) {
+  .footer .copy .copy-location .location {
+    left: 10%;
+  }
 }
 .footer .copy .copy-location .location.darkmode {
   color: #ffffff;
@@ -588,6 +654,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: "Source Code Pro", monospace;
+  overflow-x: hidden;
 }
 @media (min-width: 500px) {
   .app {
